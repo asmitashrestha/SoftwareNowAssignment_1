@@ -12,16 +12,23 @@
 
 # Here, Def tells the python that we are defining a function called sentence_analysis that takes one parameter called sentence. 
 def sentence_analysis(sentence):
+    text = ""
+    while not text.strip():
+        text = input("Please enter a sentence: ")
+        if not text.strip():
+            print("Please enter a valid sentence.")
+            
+        
     
-    while True:
+    #while True:
     # Here, this line prompts the user to enter a sentence and stores it in the variable text.
-     text = input ("Please Enter a sentence: ") 
+     #text = input ("Please Enter a sentence: ") 
     
     # Here, this line checks if the input text is empty or contains only whitespace characters.
-     if not text.strip(): 
-         break
-     else:
-         print("Please enter a valid sentence.")
+     #if not text.strip(): 
+        # break
+     #else:
+         #print("Please enter a valid sentence.")
         
         # If the input is empty, this line prints a message indicating that no sentence was entered.
        # print("No sentence was entered.") 
@@ -33,12 +40,12 @@ def sentence_analysis(sentence):
     total_words = len(words) # This line calculates the total number of words in the list   
     
     # This line finds the longest word in the list of words using the max function with the key parameter set to len, which returns the length of each word.
-    if words:
-        longest_word = max(words, key=len)
-        longest_word_len=len(longest_word)
-    else:
-        longest_word = "None"
-        longest_word_len=0
+    #if words:
+    longest_word = max(words, key=len)
+       # longest_word_len=len(longest_word)
+    #else:
+        #longest_word = "None"
+        #longest_word_len=0
     
     print(f"Total words: {total_words}") # This line prints the total number of words in the sentence.
     print(f"Longest word: {longest_word} ({len(longest_word)} Letters)") # This line prints the longest word along with its length in letters.
