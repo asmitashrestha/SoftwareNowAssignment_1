@@ -5,7 +5,7 @@
 # 4 Display the sentence in lowercase.
 # 5 Display the sentence in Title Case (first letter of each word capitalized).
 # 6 Display the sentence in reverse order.
-# Student Name: Prashant Rijal
+# Student Name: Prashant Rijal (CDU Danala)
 # Student Id: 397152
 # Assignment: 1 
 # Group: DAN/EXT 14
