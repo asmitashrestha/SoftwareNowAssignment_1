@@ -5,14 +5,18 @@
 # 4 Display the sentence in lowercase.
 # 5 Display the sentence in Title Case (first letter of each word capitalized).
 # 6 Display the sentence in reverse order.
+# Student Name: Prashant Rijal
+# Student Id: 397152
+# Assignment: 1 
+# Group: DAN/EXT 14
 
 # Here, Def tells the python that we are defining a function called sentence_analysis that takes one parameter called sentence. 
 def sentence_analysis(sentence):
     
-    # This line prompts the user to enter a sentence and stores it in the variable text.
-    text = input ("Enter a sentence: ") 
+    # Here, this line prompts the user to enter a sentence and stores it in the variable text.
+    text = input ("Please Enter a sentence: ") 
     
-    # This line checks if the input text is empty or contains only whitespace characters.
+    # Here, this line checks if the input text is empty or contains only whitespace characters.
     if not text.strip(): 
         
         # If the input is empty, this line prints a message indicating that no sentence was entered.
