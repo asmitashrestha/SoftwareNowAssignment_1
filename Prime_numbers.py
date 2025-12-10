@@ -1,3 +1,11 @@
+# Write a program that finds all prime numbers up to a given limit (maximum 100), and display:
+# the total count of prime numbers found:
+# the smallest and largest prime number in the range:
+# the sum of all prime numbers found:
+# Student Name: Sabina B K
+# Student Id: 397686
+# Group DAN/EXT 14
+
 # Function to check whether a number is prime
 def is_prime(n):
     # Prime numbers must be 2 or greater
