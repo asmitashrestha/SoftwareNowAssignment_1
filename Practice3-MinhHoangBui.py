@@ -24,11 +24,11 @@ students = []   # list to store student information
 
 
 # Input student information
-for i in range(number):        #run a loop repeatedly number of students (e.g. if number = 3 → run 3 times).
+for i in range(number):        #run a loop repeatedly number of students ( if number = 3 → run 3 times).
     print("\nStudent", i+1)    #because i starts from 0, so the first student is i+1
     name = input("  Name: ")   #input students' name and score
     score = int(input("  Score (0-100): "))
-    grade = student_grade(score)   #get score to return the grade (HD, D, C, P, D), this value is assigned to the grade variable
+    grade = student_grade(score)   #get score to return the grade (HD, D, C, P, F), this value is assigned to the grade variable
     students.append({"name": name, "score": score, "grade": grade}) 
     #use append to add student's information to the students list in a dictionary form.
 
@@ -53,4 +53,5 @@ print("\nClass Average:", round(average, 2))
 # Print class average, round a average to two decimal places
 print("\nHighest Score:", highest["score"], "-", highest["name"])
 print("Lowest Score:", lowest["score"], "-", lowest["name"])
+
 # Print highest and lowest score with student name and grade
