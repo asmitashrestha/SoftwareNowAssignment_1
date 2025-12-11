@@ -9,7 +9,7 @@
 # Function definition to convert score to grade. Use def to define a new function called student_grade
 def student_grade(score):       # This function takes one parameter named score.
     if 85 <= score <= 100:      # use if to check the score and return the grade by using return
-        return "HD"
+        return "HD"             # Each student's grade (HD: 85 -100, D: 75-84, C: 65-74, P: 50-64, F: 0-49)
     elif 75 <= score <= 84:
         return "D"
     elif 65 <= score <= 74:
@@ -63,4 +63,5 @@ print("\nClass Average:", round(average, 2))
 print("\nHighest Score:", highest["score"], "-", highest["name"])
 print("Lowest Score:", lowest["score"], "-", lowest["name"])
 # Print highest and lowest score with student name and grade
+
 
