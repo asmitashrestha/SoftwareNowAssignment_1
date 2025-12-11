@@ -19,17 +19,16 @@ def student_grade(score):       # This function takes one parameter named score.
     else:
         return "F"
 
-# input the answer for number of students from 3 to 10
-# use while True: to avoid entering the wrong number of students.
-# if entered incorrectly, the question will repeat, until the correct number is entered from 3-10, it will stop with the break command
+# Use while True: to avoid entering the wrong number of students.
 while True:
+    # input the answer for number of students from 3 to 10
     number = int(input("How many students? (3-10): "))
     if 3 <= number <= 10:
         break
     print("Please enter a number between 3 and 10.")
+    # if entered incorrectly, the question will repeat, until the correct number is entered from 3-10, it will stop with the break command
 
 students = []   # list to store student information
-
 
 # Input student information
 for i in range(number):        #run a loop repeatedly number of students ( if number = 3 → run 3 times).
@@ -63,5 +62,6 @@ print("\nClass Average:", round(average, 2))
 print("\nHighest Score:", highest["score"], "-", highest["name"])
 print("Lowest Score:", lowest["score"], "-", lowest["name"])
 # Print highest and lowest score with student name and grade
+
 
 
