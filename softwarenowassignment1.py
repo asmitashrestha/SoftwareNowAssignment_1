@@ -1,8 +1,9 @@
+"""
 #Write a program that asks the user to input a password and check its strength
 #Weak: Less than 6 characters
 #Medium:6-10 characters and contains at least one digit
 #Strong: More than 10 characters and contains at least one digit and at least one uppercase letter
-
+"""
 inputPassword = input("Enter a password:") #ask the user to input a password
 
 #function that is declare to check the strength of the password
