@@ -1,10 +1,15 @@
+"""
+#Student Name: Minh Hoang Bui
+#Student ID: 399292
+# Group: DAN/EXT 14
+# Assignment: 1 - Practice: 3
+
 # Write a program that asks the user how many students are in the class (minimum 3, maximum 10). For each student, input their name and score (0-100). Calculate and display:
 # Each student's grade (HD: 85 -100, D: 75-84, C: 65-74, P: 50-64, F: 0-49).
 # Class average
 # Highest and lowest score and student name
 # Lowest score and student name
-# Assignment: 1 - Practice: 3
-# Group: DAN/EXT 14
+"""
 
 # Function definition to convert score to grade. Use def to define a new function called student_grade
 def student_grade(score):       # This function takes one parameter named score.
@@ -62,6 +67,7 @@ print("\nClass Average:", round(average, 2))
 print("\nHighest Score:", highest["score"], "-", highest["name"])
 print("Lowest Score:", lowest["score"], "-", lowest["name"])
 # Print highest and lowest score with student name and grade
+
 
 
 
