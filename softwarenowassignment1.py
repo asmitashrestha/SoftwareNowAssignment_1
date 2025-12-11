@@ -1,4 +1,9 @@
 """
+# Student Name: Asmita Shrestha (CDU Danala)
+# Student Id: 398027
+# Assignment: 1 
+# Group: DAN/EXT 14
+
 #Write a program that asks the user to input a password and check its strength
 #Weak: Less than 6 characters
 #Medium:6-10 characters and contains at least one digit
